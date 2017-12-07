@@ -1,12 +1,18 @@
 {
-    "name": "propel/sf-propel-o-r-m-plugin",
+    "name": "cloodworks/sf-propel-o-r-m-plugin",
     "type": "symfony1-plugin",
     "description": "symfony 1.x plugin for Propel.",
     "keywords": ["symfony", "propel", "orm", "active record", "mapping", "database", "persistence"],
     "homepage": "http://www.propelorm.org/",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/cloodworks/Propel"
+      }
+    ],
     "require": {
         "composer/installers": "*",
-        "propel/propel1": "~1.6"
+        "cloodworks/propel1": "~1.6"
     },
     "extra": {
         "branch-alias": {
