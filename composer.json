@@ -7,12 +7,12 @@
     "repositories": [
       {
         "type": "vcs",
-        "url": "https://github.com/cloodworks/Propel"
+        "url": "https://github.com/nohtcoltd/Propel"
       }
     ],
     "require": {
         "composer/installers": "*",
-        "cloodworks/propel1": "~1.6"
+        "cloodworks/propel1": "1.8.0"
     },
     "extra": {
         "branch-alias": {
