@@ -20,8 +20,9 @@
  */
 class sfPropelFormGenerator extends sfGenerator
 {
-  protected
-    $dbMap = null;
+  protected $params;
+  protected $table;
+  protected $dbMap;
 
   /**
    * Initializes the current sfGenerator instance.

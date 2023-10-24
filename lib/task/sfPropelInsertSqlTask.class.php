@@ -20,6 +20,8 @@ require_once(dirname(__FILE__).'/sfPropelBaseTask.class.php');
  */
 class sfPropelInsertSqlTask extends sfPropelBaseTask
 {
+  protected $tmpDir;
+
   /**
    * @see sfTask
    */
